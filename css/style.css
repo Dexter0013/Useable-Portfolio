@@ -185,8 +185,10 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTg3Z2JnNTM5MHo0eGQ3YWIwMjVpc2U5MGc3Z3Q1aGRjbjIzdjZyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EfxgO5Ool7df0Xp4Ta/giphy.gif);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
