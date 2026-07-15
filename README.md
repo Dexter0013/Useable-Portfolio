@@ -4,8 +4,7 @@ A clean, fast, multipage portfolio template that anyone can customize and use fo
 
 ## Demo
 
-- Live Demo: https://dopefolio.netlify.app
-- Playground: https://dopefolio-playground.netlify.app
+- Live Demo: https://dexter0013.github.io/Useable-Portfolio/index.html
 
 ## Features
 
