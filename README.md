@@ -1,64 +1,122 @@
-# Useable Portfolio
+# Useable Portfolio Template
 
-## A simple, customizable portfolio template
+A clean, fast, multipage portfolio template that anyone can customize and use for their own personal website.
 
-## Live Demo
+## Demo
 
-You can view the project here: [https://dopefolio.netlify.app](https://dopefolio.netlify.app)
-
-## About
-
-This repository contains a multipage portfolio template built with HTML, CSS, SCSS, and JavaScript. It is designed to be fast, responsive, and easy to customize for your own projects.
+- Live Demo: https://dopefolio.netlify.app
+- Playground: https://dopefolio-playground.netlify.app
 
 ## Features
 
 - Easy to set up
-- Open source
 - Fully responsive
-- Optimized for SEO
 - Multipage structure
+- SEO-friendly
+- No extra frameworks required
+- No extra libraries required
 - Customizable color theme
+- Great lighthouse/audit performance
 
-## Technologies Used
+## Tech Stack
 
 - HTML
 - CSS
 - JavaScript
-- SCSS
+- SASS
 
-## How to Use
+## Getting Started
 
-1. Clone the repository:
+### 1) Clone the repository
 
 ```bash
 git clone https://github.com/Dexter0013/Useable-Portfolio.git
 cd Useable-Portfolio
 ```
 
-2. Install dependencies:
+### 2) Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Start SCSS compilation:
+### 3) Start SASS compilation
 
 ```bash
 npm run compile:scss
 ```
 
-4. Open `index.html` in your browser or use Live Server.
+### 4) Open the project
 
-## Customization
+Open `index.html` in your browser or use a Live Server extension.
 
-- Update your personal details in `index.html`
-- Change the theme color in `sass/abstracts/_variables.scss`
-- Replace project screenshots, links, and social media URLs with your own
+## How to Customize
+
+### Update your colors
+
+Edit:
+
+```scss
+sass/abstracts/_variables.scss
+```
+
+Change this variable:
+
+```scss
+$themeClrPrimary: #0062b9;
+```
+
+### Update your homepage content
+
+Edit `index.html` and replace the sample information with your own:
+
+- Name and logo in the header
+- Hero section title and bio
+- About section details and skills
+- Project titles, descriptions, and links
+- Contact section content
+- Footer name and social links
+
+### Update project pages
+
+Edit:
+
+- `project-1.html`
+- `project-2.html`
+- `project-3.html`
+
+Replace the mockups, descriptions, live links, and code links with your own project details.
 
 ## Deployment
 
-This project is easy to deploy on Netlify. Set the build command to `npm run build` and publish the generated build folder.
+This template can be deployed easily with Netlify.
+
+Recommended settings:
+
+- Build command: `npm run build`
+- Publish directory: your generated build folder
+
+## Folder Overview
+
+- `index.html` — homepage
+- `project-1.html` — project case study page
+- `project-2.html` — project case study page
+- `project-3.html` — project case study page
+- `sass/` — styles source files
+- `assets/` — images and icons
+- `scripts/` — JavaScript files
+
+## For Users
+
+This repository is meant to be a starting point for a portfolio website. You can use it as a base for:
+
+- personal portfolios
+- developer portfolios
+- freelancer landing pages
+- project showcase sites
+
+Feel free to clone it, edit the content, and make it your own.
 
 ## License
 
-This project is licensed under the GPL-3.0 License.
+Licensed under GPL-3.0.
